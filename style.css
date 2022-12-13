@@ -1,0 +1,86 @@
+body {
+margin:0;
+padding-top: 800px;
+text-align: center;
+background-color: aquamarine;
+}
+
+.profile {
+   border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#60eeee 0%  #27ae60 100%);
+display: table;
+width: 100px;
+height: 100px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+
+#name {
+    font-size: 50px;
+    font-family: 'Cinzel Decorative', cursive;
+
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: monospace;
+}
+
+#bio {
+    font-family: 'Cinzel Decorative', cursive;
+    padding: 50px;
+}
+
+.line {
+ height: 6px;
+ background-color: black;
+ width: 70px;
+ margin: 8px auto;
+
+}
+
+.parallax-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+.menu {
+    
+position: fixed;
+top: 10px;
+width: 100%;
+z-index: 10;
+margin-top: 0px;
+background: white;
+}
+
+.links {
+    display: inline;
+    
+   
+    padding-left: 9px;
+    padding-right: 9px;
+   
+    font-family: fantasy;
+    font-size: 20px;
+}
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+}
